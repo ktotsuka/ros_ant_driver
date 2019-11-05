@@ -1,0 +1,7 @@
+<launch>
+  <arg name="host" default="192.168.0.255" />
+
+  <node pkg="twe8fbe_ant_ros_driver" type="and_ros_driver" name="and_ros_driver" output="screen">
+    <param name="host" value="$(arg host)" />
+  </node>
+</launch>

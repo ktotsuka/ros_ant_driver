@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package>
+  <name>twe8fbe_ant_ros_driver</name>
+  <version>0.1.0</version>
+  <description>The twe8fbe_ros_bluebotics_driver package</description>
+
+<author >BAV Software Engineers</author>
+<maintainer email="bav@toyotaagv.com">BAV Software Engineers</maintainer>
+<license>Apache 2.0</license>
+
+<buildtool_depend>catkin</buildtool_depend>
+
+<build_depend>roscpp</build_depend>
+<run_depend>roscpp</run_depend>
+
+<build_depend>rospy</build_depend>
+<run_depend>rospy</run_depend>
+
+<build_depend>std_msgs</build_depend>
+<run_depend>std_msgs</run_depend>
+
+<build_depend>odva_ethernetip</build_depend>
+<run_depend>odva_ethernetip</run_depend>
+
+</package>
